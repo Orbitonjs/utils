@@ -1,0 +1,24 @@
+{
+  "name": "swc-plugin-orbiton",
+  "version": "1.0.0",
+  "description": "SWC plugin for Orbiton JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orbitonjs/utils.git"
+  },
+  "keywords": [
+    "swc",
+    "swc-plugin",
+    "orbiton"
+  ],
+  "author": "Beingana Jim Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Orbitonjs/utils/issues"
+  },
+  "homepage": "https://github.com/Orbitonjs/utils#readme"
+}

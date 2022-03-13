@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-orbiton",
+  "version": "1.0.0",
+  "description": "Eslint plugin for Orbiton JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orbitonjs/utils.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "orbiton"
+  ],
+  "author": "Beingana Jim JUnior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Orbitonjs/utils/issues"
+  },
+  "homepage": "https://github.com/Orbitonjs/utils#readme"
+}

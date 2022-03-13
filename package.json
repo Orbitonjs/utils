@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.154",
+    "@types/node": "^17.0.21",
+    "babel-plugin-orbiton-jsx": "^1.2.4",
+    "chalk": "^5.0.1",
+    "commander": "^9.0.0",
+    "eslint": "^8.11.0",
+    "eslint-plugin-node": "^11.1.0",
+    "orbiton": "^1.2.42",
+    "rollup": "^2.70.0",
+    "swc-loader": "^0.1.15",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

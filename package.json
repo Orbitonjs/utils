@@ -3,6 +3,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "eslintp": "node test",
+    "swc": "swc ./test.js -o output.js"
+  },
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.17.6",

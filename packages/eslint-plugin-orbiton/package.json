@@ -1,24 +1,32 @@
 {
   "name": "eslint-plugin-orbiton",
-  "version": "1.0.0",
-  "description": "Eslint plugin for Orbiton JS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Orbitonjs/utils.git"
-  },
+  "version": "0.0.0",
+  "description": "Eslint for orbiton",
   "keywords": [
     "eslint",
-    "eslint-plugin",
-    "orbiton"
+    "eslintplugin",
+    "eslint-plugin"
   ],
-  "author": "Beingana Jim JUnior",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Orbitonjs/utils/issues"
+  "author": "orbiton",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
   },
-  "homepage": "https://github.com/Orbitonjs/utils#readme"
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^9.1.3"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "license": "ISC"
 }
